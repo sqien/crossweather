@@ -1,0 +1,9 @@
+@font-face{
+    font-family: sfRegular;
+    src: url(./utils/fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+*{
+    font-family: sfRegular;
+    
+}
