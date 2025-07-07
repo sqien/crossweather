@@ -62,7 +62,7 @@ function MainWindow() {
           <div className="flex items-center text-3xl">
             {weatherCode !== null && getWeatherIcon(weatherCode)}
           </div>
-          <h1 className="text-6xl font-medium" id="temp">
+          <h1 className="temperature text-6xl font-medium" id="temp">
             {temperature}
           </h1>
         </div>
