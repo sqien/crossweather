@@ -58,8 +58,8 @@ function MainWindow() {
 
     <div className="weather flex justify-center items-center flex-1 mt-3">
       <div className="weather-container relative z-10 bg-white/10 backdrop-blur-lg border border-white/20 rounded-[2rem] p-10 w-[350px] text-white text-center shadow-xl border-solid border-opacity-5">
-        <div className="weather-container-item p-4 flex justify-center">
-          <div className="temperature flex items-center text-3xl">
+        <div className="temperature weather-container-item p-4 flex justify-center">
+          <div className="flex items-center text-3xl">
             {weatherCode !== null && getWeatherIcon(weatherCode)}
           </div>
           <h1 className="text-6xl font-medium" id="temp">
