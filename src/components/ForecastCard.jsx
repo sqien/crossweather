@@ -1,6 +1,5 @@
 import { getWeatherIcon } from "../utils/weatherIcons";
 import { Droplet } from "lucide-react";
-import { FooterCards } from "./FooterCards"
 
 export default function ForecastCard({ date, min, max, rain, code }) {
   const weekday = new Date(date).toLocaleDateString("en-GB", {
